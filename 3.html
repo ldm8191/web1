@@ -4,6 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>WEB1 - JavaScript</title>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-158680965-1"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-158680965-1');
+        </script>        
     </head>
 
     <body>
@@ -16,10 +26,8 @@
                 <li><a href="3.html">JavaScript</a></li>
             </ol>
             
-
-
         <h2>JavaScript이란 무엇인가?</h2>
-        <img src="jsp_image1.jpg" alt="jsp_image" width="600px" height="400px">
+        <img src="img/jsp_image1.jpg" alt="jsp_image" width="600px" height="400px">
         <p>
         <a href="https://en.wikipedia.org/wiki/JavaScript" target="_blank" title="html5 specification"><strong> JavaScript</strong></a> often abbreviated as JS, is an interpreted programming language that conforms to the ECMAScript specification.
         JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
@@ -30,6 +38,29 @@
         It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, 
         written using angle brackets. 
         </p>
+        
+        <p>
+            <div id="disqus_thread"></div>
+            <script>
+    
+            /**
+            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+            /*
+            var disqus_config = function () {
+            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+            };
+            */
+            (function() { // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            s.src = 'https://web1-2q7nwwz7u4.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+            })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </p>
 
     </body>
 </html>
